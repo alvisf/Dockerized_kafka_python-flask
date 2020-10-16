@@ -124,15 +124,3 @@ already started the containers with the `docker-compose.yml` file there will be
 a conflict.
 
 _Make sure you run `docker-compose down` before switching to dev mode._
-
-### Known Issues and Other things to worry about
-
-This is just a quick demo of kafka's pub sub using Python. It's missing _a lot_ of
-stuff you would want if you were going to use this in a production environment. Including:
-
-- payload validation
-- authentication and authorization
-- improved error handling
-- connection retries for kafka brokers
-- managing partitions
-- probably other things
